@@ -16,7 +16,7 @@ export default function Hero() {
               <span className="bg-gradient-to-r from-blue-700 via-blue-600 to-sky-600 bg-clip-text text-transparent">
                 bulk milk transportation
               </span>{" "}
-              using refrigerated tankers. We ensure safe, efficient, and reliable delivery solutions.
+              using refrigerated tankers &amp; container fleets. We ensure safe, efficient, and reliable delivery solutions.
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal max-w-2xl">
@@ -84,7 +84,10 @@ export default function Hero() {
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-100">
                     <span className="text-sm font-medium text-slate-600">Refrigeration Standard</span>
-                    <span className="text-sm font-bold text-blue-700">0°C to +4°C Maintained</span>
+                    <div className="text-right">
+                      <span className="text-sm font-bold text-blue-700 block">0°C to +4°C Maintained</span>
+                      <span className="text-xs font-semibold text-sky-600 block mt-0.5">0°C to -25°C Maintained</span>
+                    </div>
                   </div>
                   <div className="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-100">
                     <span className="text-sm font-medium text-slate-600">Hygiene Standard</span>

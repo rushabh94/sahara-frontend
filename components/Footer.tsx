@@ -85,11 +85,16 @@ export default function Footer() {
                   sahara.enterprise@yahoo.com
                 </a>
               </li>
-              <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-sky-400 shrink-0" />
-                <a href="tel:+919824302727" className="hover:text-sky-400 transition-colors font-bold text-white">
-                  +91-9824302727
-                </a>
+              <li className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-sky-400 shrink-0 mt-1" />
+                <div className="flex flex-col gap-1 text-white font-bold">
+                  <a href="tel:+919824302727" className="hover:text-sky-400 transition-colors block">
+                    +91-9824302727
+                  </a>
+                  <a href="tel:+919979135309" className="hover:text-sky-400 transition-colors block">
+                    +91-9979135309
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -99,7 +104,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>© 2026 by Sahara Enterprise.</p>
           <p className="flex items-center gap-1">
-            Bulk Milk & Dairy Product Transportation Specialists
+            Bulk Milk &amp; Dairy Product Transportation Specialists
           </p>
         </div>
       </div>
